@@ -1,0 +1,26 @@
+{
+    "name": "math-exntends",
+    "version": "1.0.0",
+    "main": "index.js",
+    "description": "math-extends 一款解决 js 计算精度丢失轻量级函数库",
+    "keywords": [
+        "math",
+        "js",
+        "精度",
+        "precision",
+        "数学扩展"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/xubaoqiang/math-exntends.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/xubaoqiang/math-exntends/issues"
+    },
+    "homepage": "https://github.com/xubaoqiang/math-exntends#readme"
+}
