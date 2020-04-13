@@ -1,7 +1,7 @@
 {
     "name": "math-exntends",
     "version": "1.0.0",
-    "main": "index.js",
+    "main": "dist/main.build.js",
     "description": "math-extends 一款解决 js 计算精度丢失轻量级函数库",
     "keywords": [
         "math",
@@ -11,7 +11,10 @@
         "数学扩展"
     ],
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "ts-node src/Main.ts",
+        "start": "webpack-dev-server",
+        "build": "webpack"
     },
     "repository": {
         "type": "git",
@@ -22,5 +25,16 @@
     "bugs": {
         "url": "https://github.com/xubaoqiang/math-exntends/issues"
     },
-    "homepage": "https://github.com/xubaoqiang/math-exntends#readme"
+    "homepage": "https://github.com/xubaoqiang/math-exntends#readme",
+    "dependencies": {
+        "ts-loader": "^6.2.2",
+        "ts-node": "^8.8.1",
+        "typescript": "^3.8.3",
+        "webpack": "^4.42.1",
+        "webpack-cli": "^3.3.11"
+    },
+    "devDependencies": {
+        "clean-webpack-plugin": "^3.0.0",
+        "webpack-dev-server": "^3.10.3"
+    }
 }
