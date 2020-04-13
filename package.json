@@ -1,6 +1,6 @@
 {
     "name": "math-exntends",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "dist/main.build.js",
     "description": "math-extends 一款解决 js 计算精度丢失轻量级函数库",
     "keywords": [
